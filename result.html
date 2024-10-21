@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        /* Include your desired styles here, similar to index.html */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f2f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 103vh;
+            margin: 0;
+            background-image: url('https://www.intellectsoft.net/blog/wp-content/uploads/Security-Vulnerabilities-in-Ecommerce-Cover.jpg');
+            background-position: center;  /* Center the background image */
+            background-size: cover;       /* Cover the entire area while maintaining aspect ratio */
+            background-repeat: no-repeat;
+        }
+        
+
+        .container {
+            background-color: #003366;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            opacity: 0.9;
+        }
+
+        h1 {
+            text-align: center;
+            color: #faf3e0;
+            margin-bottom: 20px;
+        }
+
+        .prediction {
+            margin-top: 20px;
+            text-align: center;
+            font-weight: bold;
+            color: #faf3e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <div class="prediction">
+            {{ prediction_text }}
+        </div>
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="/" style="color:#e0f2f1;">Go Back</a>
+
+        </div>
+    </div>
+</body>
+</html>
